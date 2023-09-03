@@ -1,0 +1,25 @@
+{
+  "name": "webpack-1.1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serv": "http-server dist",
+    "start": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bable-loader": "^0.0.1-security",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "http-server": "^14.1.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "html-loader": "^4.2.0"
+  }
+}
